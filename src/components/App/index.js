@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'
 import styled from 'styled-components'
 
 import Footer from '../Footer'
@@ -9,9 +9,9 @@ const AppWrapper = styled.div`
   background-color: #eee;
   display: grid;
   grid-template-areas:
-    "head head head"
-    ". main ."
-    "foot foot foot";
+    'head head head'
+    '. main .'
+    'foot foot foot';
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   min-height: 100vh;
