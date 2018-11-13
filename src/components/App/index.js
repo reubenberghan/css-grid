@@ -8,12 +8,11 @@ import Main from '../Main'
 const AppWrapper = styled.div`
   background-color: #eee;
   display: grid;
-  grid-template-areas:
-    'head head head'
-    '. main .'
-    'foot foot foot';
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template:
+    'head head head' 5rem
+    '. main .' 1fr
+    'foot foot foot' 5rem
+    / 1fr 4fr 1fr;
   min-height: 100vh;
 `
 
